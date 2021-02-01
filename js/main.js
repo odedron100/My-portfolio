@@ -49,3 +49,12 @@ function renderModal() {
   var $elModalBody = $('.modal-body');
   $elModalBody.html(strHTML);
 }
+
+function onSendMessage() {
+  var emailValue = $('.user-email').val();
+  var subjectValue = $('.user-subject').val();
+  var messageValue = $('.user-message').val()
+  var navigateLink = sendMessage(emailValue, subjectValue, messageValue);
+  window.open(navigateLink);
+
+}
