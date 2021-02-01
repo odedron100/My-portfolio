@@ -774,3 +774,7 @@ fieldset[disabled] .btn-xl:hover {
     height: 250px;
     /* background-image:none */
 }
+
+.img-modal{
+    width: 250px;
+}
